@@ -136,7 +136,7 @@ BlocklyDrawer.defaultProps = {
   tools: [],
   workspaceXML: '',
   injectOptions: {},
-  language: Blockly.JavaScript,
+  language: Blockly.Python,
   appearance: {},
   className: '',
   style: {},
