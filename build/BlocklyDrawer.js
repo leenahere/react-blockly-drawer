@@ -35,7 +35,7 @@ var styles = null;
 var initTools = function initTools(tools) {
   tools.forEach(function (tool) {
     _browser2.default.Blocks[tool.name] = tool.block;
-    _browser2.default.JavaScript[tool.name] = tool.generator;
+    _browser2.default.Python[tool.name] = tool.generator;
   });
 };
 
@@ -157,7 +157,7 @@ BlocklyDrawer.defaultProps = {
   tools: [],
   workspaceXML: '',
   injectOptions: {},
-  language: _browser2.default.JavaScript,
+  language: _browser2.default.Python,
   appearance: {},
   className: '',
   style: {}
